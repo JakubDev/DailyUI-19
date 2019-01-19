@@ -104,7 +104,7 @@ body {
 .one{
     margin-top: -90px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .box{
         width: 100vw;
         height: 100vh;
@@ -113,5 +113,17 @@ body {
 
     .little{
         font-size: 20px;
+    }
+
+    .lean{
+        width: 105vw;
+        border-radius: 0px;
+    }
+
+    .info{
+        width: 105vw;
+        height: 40px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
     }
 }
